@@ -28,7 +28,7 @@ describe('Person', () => {
   })
 
   test('should create Person object with country and gender', () => {
-    expect(peron.country).toEqual("United States");
+    expect(person.country).toEqual("United States");
     expect(person.gender).toEqual("female");
   })
 })

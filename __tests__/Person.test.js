@@ -11,7 +11,11 @@ describe('Person', () => {
     expect(person.age).toEqual(34);
   })
 
-  test('should create a Person object with age and age in Mercury years', () => {
+  test('should create a Person object with age in Mercury years', () => {
     expect(person.mercuryYears).toEqual(8.16);
+  })
+
+  test('should create a Person object with age in Venus years', () => {
+    expect(person.venusYears).toEqual(21.08);
   })
 })

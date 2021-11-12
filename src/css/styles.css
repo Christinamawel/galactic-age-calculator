@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+  background-color: rgb(55,28,83);
+  color: rgb(159,227,240);
+  text-align: center;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+#container {
+  min-height: 90vh;
+  min-width: 100%;
+  background-image: url("../assets/space-img-Gilang-Ramadhan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hero-head{
+  padding-top: .25em;
+  font-size: 5rem;
+  background-color: rgba(55,28,83, .75);
+}
+
+#person-form {
+  padding-top: 45vh;
+}
+
+#person-form > * {
+  padding-left: 1em;
+  font-size: 1.5rem;
+}
+
+#age {
+  border-radius: .5em;
+  border: none;
+  margin-left: .25em;
+}
+
+select {
+  border-radius: .25em;
+  border: none;
+  margin-left: .25em;
+}

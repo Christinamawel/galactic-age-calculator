@@ -26,7 +26,7 @@ body {
 }
 
 #person-form > * {
-  padding-left: 1em;
+  margin-left: .75em;
   font-size: 1.5rem;
 }
 
@@ -37,9 +37,27 @@ body {
 }
 
 select {
+  padding: .25em;
   border-radius: .25em;
   border: none;
-  margin-left: .25em;
+}
+
+#submit-btn {
+  border: none;
+  border-radius: .5em;
+  padding: .5em 1em;
+  background-color:rgb(55,28,83);
+  color: rgb(159,227,240);
+  display: block;
+  margin: 1em auto;
+  transition: .3s;
+}
+
+#submit-btn:hover {
+  font-weight: bold;
+  background-color: rgb(159,227,240);
+  color:rgb(55,28,83);
+  cursor: pointer;
 }
 
 #output {

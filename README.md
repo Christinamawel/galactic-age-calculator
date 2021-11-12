@@ -1,37 +1,44 @@
-# _{Application Name}_
+# _Galactic Age Calculator_
 
-#### By _**{List of contributors}**_
+#### By _**Christina Welch**_
+#### Space Art By _**Gilang Ramadhan on Vecteezy**_
 
-#### _{Brief description of application}_
+![space vector art](src/assets/space-img-Gilang-Ramadhan.jpg)
+
+#### _Convert your age to other planets solar years!_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _Javascript_
+* _Jquery_
+* _Jest_
+* _Webpack_
+* _ESLint_
+* _Babel_
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_A page that takes your age and converts it to match the solar years of other planets. It will also tell you your remaining average life expectancy for each planet. Thank you for visiting!_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your desktop_
+* _Navigate to galactic-age-calculator in a terminal_
+* _type npm init and press enter_
+* _type npm install and press enter_
+* _once everything has installed type npm run build and enter, then open dist/index.html_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_if you are unsure how to clone repositorys from github see https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+no known bugs
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+MIT
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _11/12/2021_ _Christina Welch_

@@ -10,6 +10,10 @@ export default class Person {
     this.jupiterYears = Math.round((age * 11.86) * 100)/100;
   }
 
+  lifeExpectancy() {
+    
+  }
+
   remainingLife() {
 
   }

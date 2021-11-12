@@ -41,3 +41,25 @@ select {
   border: none;
   margin-left: .25em;
 }
+
+#output {
+  padding-top: 12vh;
+  display: none;
+}
+
+#output-container {
+  padding: 1em;
+  border-radius: 1em;
+  background-color:rgba(55,28,83, .75);
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+#life-expectancy-head {
+  padding-top: 1.5em;
+}
+
+li {
+  font-size: 1.5rem;
+  list-style: none;
+}

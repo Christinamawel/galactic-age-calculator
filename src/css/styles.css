@@ -15,7 +15,7 @@
 
 @media (min-width: 768px){
   :root {
-    --scale: 2;
+    --scale: 1.7;
   }
 }
 
@@ -34,9 +34,10 @@ body {
   background-repeat: no-repeat;
 }
 
-#hero-head{
-  padding: .25em 1em auto 1em;
+#hero-head {
+  margin-top: .25em;
   font-size: calc(3em * var(--scale));
+  font-weight: bold;
   background-color: rgba(55,28,83, .75);
 }
 
@@ -109,4 +110,8 @@ select {
 li {
   font-size: 1.5rem;
   list-style: none;
+}
+
+span {
+  color:rgb(217,22,127);
 }

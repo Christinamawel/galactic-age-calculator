@@ -15,7 +15,6 @@
 * _Jquery_
 * _Jest_
 * _Webpack_
-* _ESLint_
 * _Babel_
 
 
@@ -31,7 +30,7 @@ _A page that takes your age and converts it to match the solar years of other pl
 * _once everything has installed type npm run build and enter_
 * _open galactic-age-calculator/dist/index.html_
 
-_if you are unsure how to clone repositorys from github see https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository_
+_if you are unsure how to clone repositories from github see https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository_
 
 ## Known Bugs
 

@@ -110,11 +110,11 @@ export default class Person {
     const marsExp = Math.round((expectancy - this.marsYears)* 100)/100;
     const jupiterExp = Math.round((expectancy - this.jupiterYears)* 100)/100;
     
-    remainingLife.push(earthExp >= 0 ? `Earth: ${earthExp}` : `Earth: ${earthExp * -1} over life expectancy`);
-    remainingLife.push(mercuryExp >= 0 ? `Mercury: ${mercuryExp}` : `Mercury: ${mercuryExp * -1} over life expectancy`);
-    remainingLife.push(venusExp >= 0 ? `Venus: ${venusExp}` : `Venus: ${venusExp * -1} over life expectancy`);
-    remainingLife.push(marsExp >= 0 ? `Mars: ${marsExp}` : `Mars: ${marsExp * -1} over life expectancy`);
-    remainingLife.push(jupiterExp >= 0 ? `Jupiter: ${jupiterExp}` : `Jupiter: ${jupiterExp * -1} over life expectancy`);
+    remainingLife.push(earthExp >= 0 ? `Earth: ${earthExp} years` : `Earth: ${earthExp * -1} years over life expectancy`);
+    remainingLife.push(mercuryExp >= 0 ? `Mercury: ${mercuryExp} years` : `Mercury: ${mercuryExp * -1} years over life expectancy`);
+    remainingLife.push(venusExp >= 0 ? `Venus: ${venusExp} years` : `Venus: ${venusExp * -1} years over life expectancy`);
+    remainingLife.push(marsExp >= 0 ? `Mars: ${marsExp} years` : `Mars: ${marsExp * -1} years over life expectancy`);
+    remainingLife.push(jupiterExp >= 0 ? `Jupiter: ${jupiterExp} years` : `Jupiter: ${jupiterExp * -1} years over life expectancy`);
 
     return remainingLife;
   }

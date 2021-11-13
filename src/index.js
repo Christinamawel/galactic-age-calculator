@@ -15,12 +15,12 @@ $("form#person-form").submit(function(event) {
   $("#person-form").hide();
   $("#output").show();
 
-  $("#mercury-age").text(user.mercuryYears);
-  $("#venus-age").text(user.venusYears);
-  $("#mars-age").text(user.marsYears);
-  $("#jupiter-age").text(user.jupiterYears);
+  $("#mercury-age").text(`${user.mercuryYears} years`);
+  $("#venus-age").text(`${user.venusYears} years`);
+  $("#mars-age").text(`${user.marsYears} years`);
+  $("#jupiter-age").text(`${user.jupiterYears} years`);
 
   userLifeExpArray.forEach(function(exp) {
     $("#life-expectancy").append(`<li>${exp}</li>`);
-  })
-})
+  });
+});

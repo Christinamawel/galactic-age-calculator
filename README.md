@@ -28,7 +28,8 @@ _A page that takes your age and converts it to match the solar years of other pl
 * _Clone this repository to your desktop_
 * _Navigate to galactic-age-calculator in your terminal_
 * _type npm install and press enter_
-* _once everything has installed type npm run build and enter, then open galactic-age-calculator/dist/index.html_
+* _once everything has installed type npm run build and enter_
+* _open galactic-age-calculator/dist/index.html_
 
 _if you are unsure how to clone repositorys from github see https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository_
 

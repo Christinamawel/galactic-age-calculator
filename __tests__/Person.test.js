@@ -45,6 +45,6 @@ describe('Person', () => {
   })
 
   test("should create person object with reaming life expectancy on mercury", () => {
-    expect(person.mercuryExp).toEqual(72.8);
+    expect(person.mercuryExp).toEqual(73.24);
   })
 })

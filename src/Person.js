@@ -13,8 +13,7 @@ export default class Person {
     this.mercuryExp = Math.round((this.expectancy - this.mercuryYears)* 100)/100;
     this.venusExp = Math.round((this.expectancy - this.venusYears)* 100)/100;
     this.marsExp = Math.round((this.expectancy - this.marsYears)* 100)/100;
-    this.jupiterExp = 0;
-    // Math.round((expectancy - this.jupiterYears)* 100)/100;
+    this.jupiterExp = Math.round((this.expectancy - this.jupiterYears)* 100)/100;
   }
 
   lifeExpectancy() {

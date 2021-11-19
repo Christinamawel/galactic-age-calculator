@@ -10,7 +10,6 @@ $("form#person-form").submit(function(event) {
   const country = $("#country-select").val();
   const gender = $("#gender-select").val();
   const user = new Person(age, country, gender);
-  const userLifeExpArray = user.remainingLife();
   
   $("#person-form").hide();
   $("#output").show();
@@ -20,7 +19,10 @@ $("form#person-form").submit(function(event) {
   $("#mars-age").text(`${user.marsYears} years`);
   $("#jupiter-age").text(`${user.jupiterYears} years`);
 
-  userLifeExpArray.forEach(function(exp) {
-    $("#life-expectancy").append(`<li>${exp}</li>`);
-  });
+  
+  $("#life-expectancy").append(user.earthExp >= 0 ? `<li>Earth: ${user.earthExp} </li>`: `<li>Earth: ${user.earthExp *= -1} over life expectancy</li>`);
+  $("#life-expectancy").append(user.mercuryExp >= 0 ? `<li>Mercury: ${user.mercuryExp} </li>`: `<li>Mercury: ${user.mercuryExp *= -1} over life expectancy</li>`);
+  $("#life-expectancy").append(user.venusExp >= 0 ? `<li>Venus: ${user.venusExp} </li>`: `<li>Venus: ${user.venusExp *= -1} over life expectancy</li>`);
+  $("#life-expectancy").append(user.marsExp >= 0 ? `<li>Mars: ${user.marsExp} </li>`: `<li>Mars: ${user.marsExp *= -1} over life expectancy</li>`);
+  $("#life-expectancy").append(user.jupiterExp >= 0 ? `<li>Jupiter: ${user.jupiterExp} </li>`: `<li>Jupiter: ${user.jupiterExp *= -1} over life expectancy</li>`);
 });

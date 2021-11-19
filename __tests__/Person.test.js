@@ -32,10 +32,6 @@ describe('Person', () => {
     expect(person.gender).toEqual("female");
   })
 
-  test('should create Person object with method to find average life expectancy', () => {
-    expect(person.lifeExpectancy()).toEqual(81.4);
-  })
-
   test('should create person object with life expectancy', () => {
     expect(person.expectancy).toEqual(81.4);
   })
